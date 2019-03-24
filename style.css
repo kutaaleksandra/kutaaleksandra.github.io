@@ -101,6 +101,7 @@ body {
     flex-direction: column;
     margin: 0 auto;
     width: 90%;
+    /* border: 2px solid green; */
 }
 
 .profiles_icons {
@@ -210,31 +211,31 @@ div.star_pink {
         margin-top: 0;
     }
     10% {
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
     20% {
-        margin-top: 8rem;
+        margin-top: 3rem;
     }
     30% {
-        margin-top: 12rem;
+        margin-top: 5rem;
     }
     40% {
-        margin-top: 16rem;
+        margin-top: 7rem;
     }
     50% {
-        margin-top: 20rem;
+        margin-top: 9rem;
     }
     60% {
-        margin-top: 16rem;
+        margin-top: 7rem;
     }
     70% {
-        margin-top: 12rem;
+        margin-top: 5rem;
     }
     80% {
-        margin-top: 8rem;
+        margin-top: 3rem;
     }
     90% {
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
     100% {
         margin-top: 0;
@@ -246,31 +247,31 @@ div.star_pink {
         margin-top: 0;
     }
     10% {
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
     20% {
-        margin-top: 8rem;
+        margin-top: 3rem;
     }
     30% {
-        margin-top: 12rem;
+        margin-top: 5rem;
     }
     40% {
-        margin-top: 16rem;
+        margin-top: 6rem;
     }
     50% {
-        margin-top: 20rem;
+        margin-top: 7rem;
     }
     60% {
-        margin-top: 16rem;
+        margin-top: 6rem;
     }
     70% {
-        margin-top: 12rem;
+        margin-top: 5rem;
     }
     80% {
-        margin-top: 8rem;
+        margin-top: 3rem;
     }
     90% {
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
     100% {
         margin-top: 0;
@@ -608,6 +609,7 @@ div.star_pink {
         width: 100%;
         -webkit-animation: none;
         animation: none;
+        margin-left: 4rem;
     }
 }
 
@@ -661,8 +663,8 @@ div.star_pink {
     }
     .main_img {
         width: 60%;
-        -webkit-animation: move 5s linear infinite both;
-        animation: move 5s linear infinite both;
+        -webkit-animation: move 3s linear infinite both;
+        animation: move 3s linear infinite both;
     }
 }
 
@@ -710,7 +712,7 @@ div.star_pink {
     }
 }
 
-@media(max-width: 1080px) and (orientation:landscape) {
+@media(max-width: 1024px) and (orientation:landscape) {
     p.subtitle, .cursor {
         font-size: 1.5rem;
     }
@@ -719,7 +721,13 @@ div.star_pink {
     }
 }
 
-@media(min-width: 1080px) {
+@media(min-width: 1024px) {
+    .elements {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
     p.subtitle, .cursor {
         font-size: 2.2rem;
     }
@@ -731,18 +739,12 @@ div.star_pink {
     }
     .main_img {
         width: 50%;
-        -webkit-animation: move 5s linear infinite both;
-        animation: move 5s linear infinite both;
+        -webkit-animation: move 3s linear infinite both;
+        animation: move 3s linear infinite both;
     }
 }
 
 @media(min-width: 1440px) {
-    .elements {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-        flex-direction: row;
-    }
     p.subtitle, .cursor {
         font-size: 2.8rem;
     }
