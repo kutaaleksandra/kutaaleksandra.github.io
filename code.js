@@ -26,4 +26,4 @@ const ul = document.querySelector('ul');
 
 navBar.addEventListener('click', (e) => {
     ul.classList.toggle('active');
-})
+});
