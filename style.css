@@ -635,7 +635,7 @@ div.star_pink {
 }
 
 .moon_img {
-    width: 50%;
+    width: 100%;
     -webkit-animation: move 10s linear infinite both;
     animation: move 10s linear infinite both;
 }
