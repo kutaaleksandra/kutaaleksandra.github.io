@@ -362,6 +362,7 @@ div.star_pink {
     color: white;
     text-align: center;
     padding: 1rem;
+    text-transform: uppercase;
     /* border: 2px solid green; */
 }
 
@@ -554,31 +555,71 @@ div.star_pink {
     background-position: 0 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* border: 2px solid yellow; */
+}
+
+.contact_elements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: space-around;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    border: 2px solid pink;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .contact_me {
-    width: 20%;
+    width: 30%;
+    border: 2px solid blue;
+    margin: 0 3rem;
 }
 
 .contact_info {
     font-size: 1.8rem;
     color: white;
     font-weight: 100;
+    text-align: center;
+}
+
+.resume_link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--lightBlue);
+    cursor: pointer;
 }
 
 .moon {
-    background-color: var(--bcgColor);
-    position: relative;
-    width: 100vw;
-    height: auto;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0 3rem;
 }
 
 .moon_img {
-    width: 15%;
-    position: absolute;
-    right: 20%;
-    top: 6rem;
-    margin-top: 0;
+    width: 200%;
     -webkit-animation: move 10s linear infinite both;
     animation: move 10s linear infinite both;
 }
