@@ -599,14 +599,14 @@ div.star_pink {
     align-items: center;
     height: 100%;
     width: 80%;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
 .contact_me {
     width: 30%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 0 3rem;
 }
 
@@ -625,19 +625,11 @@ div.star_pink {
     cursor: pointer;
 }
 
-.moon {
-    -webkit-box-flex: 0;
-    -ms-flex-positive: 0;
-    flex-grow: 0;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    margin: 0 3rem;
-}
-
 .moon_img {
-    width: 100%;
+    width: 25%;
     -webkit-animation: move 10s linear infinite both;
     animation: move 10s linear infinite both;
+    /* border: 2px solid pink; */
 }
 
 @media(min-width:320px) {
