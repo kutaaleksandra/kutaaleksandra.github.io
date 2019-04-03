@@ -259,7 +259,7 @@ div.star_pink {
         margin-top: 6rem;
     }
     50% {
-        margin-top: 7rem;
+        margin-top: 6.5rem;
     }
     60% {
         margin-top: 6rem;
@@ -605,13 +605,12 @@ div.star_pink {
 }
 
 .contact_me {
-    width: 30%;
+    width: 40%;
     /* border: 2px solid blue; */
     margin: 0 3rem;
 }
 
 .contact_info {
-    font-size: 1.8rem;
     color: white;
     font-weight: 100;
     text-align: center;
@@ -627,8 +626,6 @@ div.star_pink {
 
 .moon_img {
     width: 25%;
-    -webkit-animation: move 10s linear infinite both;
-    animation: move 10s linear infinite both;
     /* border: 2px solid pink; */
 }
 
@@ -660,6 +657,23 @@ div.star_pink {
         animation: none;
         margin-left: 4rem;
     }
+    .contact_elements {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .moon_img {
+        -webkit-animation: none;
+        animation: none;
+        width: 50%;
+    }
+    .contact_me {
+        width: 100%;
+    }
+    .contact_info {
+        font-size: 1.6rem;
+    }
 }
 
 @media(min-width:320px) and (orientation: landscape) {
@@ -671,6 +685,17 @@ div.star_pink {
     }
     .main_img {
         width: 50%;
+    }
+    .moon_img {
+        -webkit-animation: none;
+        animation: none;
+        width: 50%;
+    }
+    .contact_me {
+        width: 40%;
+    }
+    .contact_info {
+        font-size: 1.6rem;
     }
 }
 
@@ -701,6 +726,9 @@ div.star_pink {
     .profiles_container {
         text-align: center;
     }
+    .contact_info {
+        font-size: 2.4rem;
+    }
 }
 
 @media(min-width: 768px) and (orientation: landscape) {
@@ -714,6 +742,10 @@ div.star_pink {
         width: 60%;
         -webkit-animation: move 3s linear infinite both;
         animation: move 3s linear infinite both;
+    }
+    .moon_img {
+        -webkit-animation: move 10s linear infinite both;
+        animation: move 10s linear infinite both;
     }
 }
 
@@ -790,6 +822,15 @@ div.star_pink {
         width: 50%;
         -webkit-animation: move 3s linear infinite both;
         animation: move 3s linear infinite both;
+    }
+    .contact_elements {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .moon_img {
+        width: 30%;
     }
 }
 
